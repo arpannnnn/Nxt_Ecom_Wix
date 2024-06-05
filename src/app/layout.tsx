@@ -4,11 +4,13 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Ecomerce App with Next.js and Wix",
   description: "Ecomerce App with Next.js and Wix",
+
 };
 
 export default function RootLayout({
@@ -19,10 +21,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+
         <Navbar />
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }

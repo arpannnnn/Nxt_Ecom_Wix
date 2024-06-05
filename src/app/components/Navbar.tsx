@@ -20,10 +20,10 @@ const Navbar = () => {
                 {/* Left */}
                 <div className="w-1/3 xl:w-1/2 flex items-center gap-12">
                     <Link href="/" className="flex items-center gap-3">
-                    <Image src="/logo.png" alt="Logo" width={24} height={24} />
+                    <Image src="/logo.png" alt="Logo" width={30} height={30} className="bg-cyan-100 rounded-md" />
                     <div className="text-2xl tracking-wide">Arpan</div>
                     </Link>
-                    <div className="hidden xl:flex gap-4 font-bold">
+                    <div className="hidden xl:flex gap-4 ">
                         <Link href="/">Home</Link>
                         <Link href="/shop">Shop</Link>
                         <Link href="/about">About</Link>

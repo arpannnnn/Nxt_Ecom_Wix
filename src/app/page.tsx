@@ -1,6 +1,12 @@
+import Slider from "./components/Slider"
+
 const HomePage = () => {
   return (
-    <div className=' font-sans font-bold text-black justify-center flex mt-6'>HomePage</div>
+   <div>
+    <>
+    <Slider />
+    </>
+   </div>
   )
 }
 
