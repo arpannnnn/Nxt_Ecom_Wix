@@ -1,9 +1,17 @@
-import React from 'react'
 
-const page = () => {
+const SinglePage = () => {
   return (
-    <div>page</div>
+    <div className="">
+      {/* Img */}
+      <div className="">
+
+      </div>
+      {/* Texts*/}
+      <div className="">
+        
+        </div>
+    </div>
   )
 }
 
-export default page
+export default SinglePage
