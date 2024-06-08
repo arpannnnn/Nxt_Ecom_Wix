@@ -1,5 +1,5 @@
 import CategoryList from "./components/CategoryList"
-import Filter from "./components/Filter"
+
 import NewProductList from "./components/NewProductList"
 import ProductList from "./components/ProductList"
 import Slider from "./components/Slider"
@@ -22,7 +22,7 @@ const HomePage = () => {
           <h1 className="text-2xl ">New Products</h1>
           <NewProductList />
         </div>
-        {/* filter  */}
+        
      
      
     </div>

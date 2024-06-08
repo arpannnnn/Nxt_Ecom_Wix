@@ -37,11 +37,11 @@ const ProductImages = () => {
             </div>
             <div className="flex justify-between gap-4 mt-8">
 
-                {images.map((img, index) => (
+                {images.map((img,i) => (
 
                     <div className="w-1/4 h-32 relative gap-4 mt-8 cursor-pointer"
                         key={img.id}
-                        onClick={() => setIndex (index)}
+                        onClick={() => setIndex (i)}
                     >
                         <Image src={img.url}
                             alt=""
