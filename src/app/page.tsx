@@ -23,7 +23,7 @@ const HomePage = () => {
           <NewProductList />
         </div>
         {/* filter  */}
-        <Filter />
+     
      
     </div>
   )
